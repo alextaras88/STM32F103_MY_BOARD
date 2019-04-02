@@ -1,0 +1,13 @@
+.\objects\weight.o: CODE\src\weight.c
+.\objects\weight.o: .\CODE\inc\weight.h
+.\objects\weight.o: .\CMSIS\inc\stm32f10x.h
+.\objects\weight.o: .\CMSIS\inc\core_cm3.h
+.\objects\weight.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\weight.o: .\CMSIS\inc\system_stm32f10x.h
+.\objects\weight.o: .\CODE\inc\ad7730.h
+.\objects\weight.o: .\CODE\inc\SPI.h
+.\objects\weight.o: .\CODE\inc\Delay.h
+.\objects\weight.o: .\CODE\inc\ad7799.h
+.\objects\weight.o: .\CODE\inc\ads1220.h
+.\objects\weight.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\weight.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

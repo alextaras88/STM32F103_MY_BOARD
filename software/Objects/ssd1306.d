@@ -1,0 +1,9 @@
+.\objects\ssd1306.o: SSD1306\ssd1306.c
+.\objects\ssd1306.o: SSD1306\ssd1306.h
+.\objects\ssd1306.o: .\CMSIS\inc\stm32f10x.h
+.\objects\ssd1306.o: .\CMSIS\inc\core_cm3.h
+.\objects\ssd1306.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ssd1306.o: .\CMSIS\inc\system_stm32f10x.h
+.\objects\ssd1306.o: .\CODE\inc\i2c.h
+.\objects\ssd1306.o: .\CODE\inc\Delay.h
+.\objects\ssd1306.o: SSD1306\ssd1306_fonts.h

@@ -30,6 +30,7 @@
 
 #include "weight.h"
 #include "ssd1306.h"
+#include "display.h"
 
 
 #endif /* MAIN_H_ */

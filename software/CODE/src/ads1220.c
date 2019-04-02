@@ -89,7 +89,7 @@ void ads1220_Init(void){
 	
 	
 	ads1220_WREG(CONFIG_REG0 , 0x0A);		// AINP = AIN0, AINN = AIN1, gain = 32, PGA enabled
-	ads1220_WREG(CONFIG_REG1 , 0x04);		// DR = 45 SPS, normal, continuous conversion mode
+	ads1220_WREG(CONFIG_REG1 , 0x24);		// DR = 45 SPS, normal, continuous conversion mode
 	ads1220_WREG(CONFIG_REG2 , 0x10);		// External voltage reference(AVDD-AVCC), simultaneous 50-Hz and 60-Hz rejection
 	ads1220_WREG(CONFIG_REG3 , 0x00);		// No IDACs used
 	
