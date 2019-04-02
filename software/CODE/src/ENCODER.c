@@ -1,5 +1,6 @@
 #include "ENCODER.h"
 
+int32_t capture = 0, capture_prev = 0, encoder = 0;
 
 /****************************************************************************************************/
 void Encoder_Init(TIM_TypeDef* TIMx, uint16_t period){
@@ -63,3 +64,20 @@ float Get_Encoder_Angle(TIM_TypeDef* TIMx, uint16_t tic){
 
 }
 /****************************************************************************************************/
+float Get_Encoder_mm(TIM_TypeDef* TIMx){
+	
+	capture = TIMx->CNT;
+		encoder += capture - capture_prev;
+    if (abs(capture-capture_prev)>32767) {
+			
+      encoder += (capture<capture_prev ? 65535 : -65535);
+      
+    }
+		
+		capture_prev = capture;
+		
+		return (float)encoder/2750.0f;
+
+}
+
+

@@ -21,7 +21,8 @@ I (.\CODE\inc\timer.h)(0x5C987522)
 I (.\CODE\inc\PWM.h)(0x5C98732F)
 I (.\CODE\inc\SPI.h)(0x5C98ADBE)
 I (.\CODE\inc\i2c.h)(0x5C9875C3)
-I (.\CODE\inc\ENCODER.h)(0x5C988D18)
+I (.\CODE\inc\ENCODER.h)(0x5CA3675C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F64D08)
 I (.\CODE\inc\max6675.h)(0x5C9874DB)
 I (.\CODE\inc\ads1110.h)(0x5C987692)
 I (.\CODE\inc\ads1220.h)(0x5C987A69)
@@ -37,7 +38,6 @@ I (.\SSD1306\ssd1306_fonts.h)(0x5C987BD9)
 I (.\LCD12864\display.h)(0x5CA2F84F)
 I (.\LCD12864\st7920.h)(0x5CA305CA)
 I (.\LCD12864\fonts.h)(0x5CA2F8DA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F64D08)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F64D08)
 I (.\LCD12864\f6x8m.h)(0x5C86A9DF)
 I (.\LCD12864\f10x16f.h)(0x5C86A9DF)
@@ -182,12 +182,15 @@ I (SSD1306\ssd1306_fonts.h)(0x5C987BD9)
 F (.\SSD1306\ssd1306_fonts.c)(0x5B8CCD38)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\test -I .\CMSIS\inc -I .\CODE\inc -I .\SSD1306 -I .\LCD12864-I.\RTE\_STM32F103-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD-o .\objects\ssd1306_fonts.o --omf_browse .\objects\ssd1306_fonts.crf --depend .\objects\ssd1306_fonts.d)
 I (SSD1306\ssd1306_fonts.h)(0x5C987BD9)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64D08)
-F (.\CODE\src\ENCODER.c)(0x5C988F32)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\test -I .\CMSIS\inc -I .\CODE\inc -I .\SSD1306 -I .\LCD12864-I.\RTE\_STM32F103-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD-o .\objects\encoder.o --omf_browse .\objects\encoder.crf --depend .\objects\encoder.d)
-I (.\CODE\inc\ENCODER.h)(0x5C988D18)
+F (.\CODE\src\ENCODER.c)(0x5CA36744)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\test -I .\CMSIS\inc -I .\CODE\inc -I .\SSD1306 -I .\LCD12864-I.\RTE\_STM32F103-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD-o .\objects\encoder.o --omf_browse .\objects\encoder.crf --depend .\objects\encoder.d)
+I (.\CODE\inc\ENCODER.h)(0x5CA3675C)
 I (.\CMSIS\inc\stm32f10x.h)(0x5A29906E)
 I (.\CMSIS\inc\core_cm3.h)(0x4D5281A8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64D08)
 I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7882FA)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F64D08)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F64D08)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F64D08)
 F (.\LCD12864\display.c)(0x5CA2FF0D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\test -I .\CMSIS\inc -I .\CODE\inc -I .\SSD1306 -I .\LCD12864-I.\RTE\_STM32F103-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F10X_MD-o .\objects\display.o --omf_browse .\objects\display.crf --depend .\objects\display.d)
 I (LCD12864\display.h)(0x5CA2F84F)
 I (.\CMSIS\inc\stm32f10x.h)(0x5A29906E)

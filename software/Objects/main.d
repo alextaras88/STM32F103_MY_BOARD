@@ -14,6 +14,7 @@
 .\objects\main.o: .\CODE\inc\SPI.h
 .\objects\main.o: .\CODE\inc\i2c.h
 .\objects\main.o: .\CODE\inc\ENCODER.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\main.o: .\CODE\inc\max6675.h
 .\objects\main.o: .\CODE\inc\ads1110.h
 .\objects\main.o: .\CODE\inc\ads1220.h
@@ -29,7 +30,6 @@
 .\objects\main.o: .\LCD12864\display.h
 .\objects\main.o: .\LCD12864\st7920.h
 .\objects\main.o: .\LCD12864\fonts.h
-.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\main.o: .\LCD12864\f6x8m.h
 .\objects\main.o: .\LCD12864\f10x16f.h
